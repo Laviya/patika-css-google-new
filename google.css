@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav bar */
+
+.nav{
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    float: right;
+    
+    padding-right: 20px;
+    
+}
+
+.a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+a:hover{
+ text-decoration: underline
+
+}
+
+/* google img  */
+
+.googleimg{
+    clear: both;
+    
+}
+.img-margin{
+    margin-top: 108px;
+}
+
+/* google search area */
+
+.form{
+    height: 118px;
+}
+
+.input-area{
+    width: 582px;
+    margin-top: 23px;
+    padding-top: 6px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 38px;
+    text-align: center;
+    box-shadow:1px 1px 12px -1px #ccc;
+}
+
+.input{
+    border: none;
+    outline: none;
+    width: 484px;
+    height: 20px;
+    font-size: 16px;
+    background-color: transparent;
+    line-height: 34px; 
+    position: relative;
+    bottom: 15px;
+
+}
+
+.img-search{
+    width: 14px;
+    height: 14px;
+
+}
+
+.img-div{
+    position: relative;
+    right: 270px;
+    top: 8px;
+}
+
+.img-voice{
+    width: 24px;
+    height: 24px;
+}
+
+.img-mic-div{
+    position: relative;
+    left: 270px;
+    bottom: 36px;
+}
+
+/* Button area */
+
+.btn-div{
+    margin-top: 15px;
+}
+
+.btn-1{
+    border-style: none;
+    padding: 10px 15px;
+    font-size: 14px;
+
+}
+.btn-2{
+    border-style: none;
+    padding: 10px 15px;
+    font-size: 14px;
+
+}
+button:hover{
+    box-shadow: 1px 3px 3px  #b6b6b8;
+}
+
+/* footer area */
+
+.footer{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.padding-f{
+    padding-bottom: 30px;
+}
+
+.footer-link{
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.footer-link a{
+    color: #70757a;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.footer-link a:hover{
+    text-decoration: underline;
+}
+
+.f-l{
+    float: left;
+}
+
+.footer-right{
+    
+    float: right;
+    
+}
+
